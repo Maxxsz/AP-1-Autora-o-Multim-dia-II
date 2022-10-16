@@ -1,0 +1,111 @@
+body {
+    font-size: 10px;
+    font-family: 'Roboto', 'Sans-serif', 'Arial';
+}
+
+h1 {
+    font-size: 16;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 14;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 12;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+}
+
+.promocao-form {
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    width: 200px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* @media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+} */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+/* .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+} */
+
+
+td:nth-child(odd) {
+    background: white;
+}
+
+td:nth-child(even) {
+    background: lightgrey;
+}
+
+table {
+    border: 1px solid;
+    width: 50%;
+}
+
+td {
+    border: 1px solid;
+    
+}
+td:hover {
+    background-color: aquamarine;
+}
